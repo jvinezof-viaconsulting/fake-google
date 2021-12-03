@@ -1,0 +1,119 @@
+.listLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 18px;
+  list-style: none;
+}
+
+.listLink {
+  padding-left: 18px;
+  font-size: 14px;
+  color: #FFF;
+}
+
+.googleApps {
+  width: 26px;
+  fill: #FFF;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 134px;
+}
+
+.contentInner,
+.searchWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.searchWrap {
+  padding: 20px;
+}
+
+.inputWrap {
+  position: relative;
+  width: 100%;
+  max-width: 584px;
+}
+
+.input {
+  width: 100%;
+  height: 46px;
+  font-size: 16px;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+  outline: none;
+  padding-left: calc(14px + 20px + 13px);
+  color: #e8eaed;
+  background-color: #202124;
+}
+
+.input:hover,
+.input:focus {
+  background-color: #303134;
+  box-shadow: 0 1px 6px 0 #171717;
+  border-color: rgba(223,225,229,0);
+}
+
+.searchIcon,
+.tecladoIcon,
+.VoiceIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.searchIcon {
+  left: 14px;
+  width: 20px;
+  height: 20px;
+  fill: #9aa0a6
+}
+
+.tecladoIcon {
+  right: calc(24px + 20px + 16px);
+}
+
+.VoiceIcon {
+  width: 24px;
+  height: 24px;
+  right: 20px;
+}
+
+.buttonsWrap {
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  font-size: 14px;
+  line-height: 27px;
+  text-decoration: none;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  color: #e8eaed;
+  background-color: #303134;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+}
